@@ -9,7 +9,13 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
 
 for (let i = 1; i <=100; i++) {
-    console.log(i)
-    
+console.log(i) 
+if(i % 3 === 0){
+    console.log("fizz")
+}
+else if(i % 5 === 0){
+    console.log("Buzz")
+
 }
 
+}
